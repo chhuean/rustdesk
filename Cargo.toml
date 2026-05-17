@@ -47,7 +47,7 @@ screencapturekit = ["cpal/screencapturekit"]
 [dependencies]
 async-trait = "0.1"
 scrap = { path = "libs/scrap", features = ["wayland"] }
-hbb_common = { git = "https://github.com/chhuean/hbb_common.git", branch = "main" }
+hbb_common = { git = "https://github.com/chhuean/hbb_common.git", rev = "073403edbf1fffcb3acfe8cbe7582ee873b23398" }
 serde_derive = "1.0"
 serde = "1.0"
 serde_json = "1.0"
@@ -219,7 +219,7 @@ winapi = { version = "0.3", features = [ "winnt", "pdh", "synchapi" ] }
 
 [build-dependencies]
 cc = "1.0"
-hbb_common = { git = "https://github.com/chhuean/hbb_common.git", branch = "main" }
+hbb_common = { git = "https://github.com/chhuean/hbb_common.git", rec = "073403edbf1fffcb3acfe8cbe7582ee873b23398" }
 os-version = "0.2"
 
 [dev-dependencies]
